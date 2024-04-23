@@ -1,0 +1,183 @@
+
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Software Development Company </title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .banner {
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient white((169, 204, 100, 0.75),white(174, 206, 100, 0.75));
+                background-size: cover;
+                background-position: center;
+            }
+            .navbar {
+                width: 85%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo {
+                color: rgb(225, 226, 234);
+                font-size: 40px;
+                font-weight: 700;
+                letter-spacing: 3px;
+            }
+            span {
+                color: rgb(233, 249, 239);
+            }
+            form {
+                width: 300px;
+                height: 40px;
+                display: flex;
+                background: rgba(194, 99, 177, 0.2);
+                padding: 1px 1px;
+                font-size: 15px;
+                border-radius: 10px;
+                backdrop-filter: blur(4px) saturate(180%);
+            }
+            form input {
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                padding: 12px 20px;
+                font-size: 15px;
+                color: rgb(230, 116, 148);
+            } 
+            ::placeholder {
+                color: rgb(233, 125, 188);
+            }
+            form button {
+                border: 0;
+                outline: none;
+                padding: 5px 20px;
+                color: rgb(231, 115, 165);
+                border-radius: 10px;
+                background: black;
+                cursor: pointer;
+            }
+            .navbar li {
+                list-style: none;
+                display: inline-block;
+                margin: 0 20px;
+                position: relative;
+            }
+            .navbar li a {
+                text-decoration: none;
+                color: rgb(217, 105, 154);
+                text-transform: uppercase;
+            }
+            .navbar li:hover {
+                border: 1px;
+                padding: 10px;
+                color: pink;
+                background-color: black;
+                transition: 0.5s; 
+                cursor: pointer;
+                border-radius: 30px;
+            }
+            .content {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+            }
+            .text h2 {
+                color: black;
+                font-weight: 800;
+                font-size: 50px;
+                letter-spacing: 3px;
+            }
+            .text p {
+                color: black;
+                text-transform: capitalize;
+                font-size: 15px;
+                margin-bottom: 30px;
+                word-spacing: 2px;
+                letter-spacing: 1px;
+            }
+            .login {
+                margin: 0px 10px;
+                border: 2px solid black;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color: pink;
+                border-radius: 30px;
+                background-color: black;
+                text-decoration: none;
+            }
+            .login:hover {
+                border: 2px solid white;
+                color: black;
+                background-color: white;
+                transition: 0.5s;
+                cursor: pointer;
+            } 
+            .signup {
+                margin: 0px 10px;
+                border: 2px solid black;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color: pink;
+                border-radius: 30px;
+                background-color: white;
+                text-decoration: none;
+            }
+            .signup:hover {
+                border: 2px solid black;
+                color: black;
+                background-color: pink;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+            footer {
+                background-color: black;
+                margin-top: auto;
+            }
+        </style>
+    </head>
+<body>
+    <div class="banner">
+        <br>
+        <div class="navbar">
+            <h1 class="logo">TechSociety</h1>
+            <ul>
+                <li><a href="http://127.0.0.1:8000/static/home.html class = "bg-home"> home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/people.html"> People </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
+            </ul>
+            <form action="" method="get">
+                <input type="text" placeholder="Enter to Search">
+                <button type="submit"> Search </button>
+            </form>
+        </div>
+        <div class="content">
+            <div class="text">
+                <h2> <b>CodeMasteryHub</b> </h2>
+                <br>
+                <p> Welcome to CodeMasteryHub,Forward-Thinking And Innovative Solutions To Bring Your Ideas To Life!</p>
+                <br>
+                <div>
+                    <a href="#" class="login"> Log In </a>
+                    <a href="#" class="signup"> Sign Up </a>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <footer>
+        <center> Designed and Developed by saranya S. 212223220101 </center>
+    </footer>
+</body>
+</html>
+
